@@ -15,7 +15,10 @@ const data = {
     { text: 'slaresponseform', icon: <Web/>, link:'/slaresponseform'},
     { text: 'slaonsiteform', icon: <Web/>, link:'/slaonsiteform'},
     { text: 'slaworkaroundform', icon: <Web/>, link:'/slaworkaroundform'},
-    { text: 'slaresolutionform', icon: <Web/>, link:'/slaresolutionform'}
+    { text: 'slaresolutionform', icon: <Web/>, link:'/slaresolutionform'},
+    { text: 'slatable', icon: <Web/>, link:'/slatable'},
+    { text: 'teamslatable', icon: <Web/>, link:'/teamslatable'},
+    { text: 'teamslacreateteam', icon: <Web/>, link:'/teamslacreateteam'}
 
   ],
   tablePage: {

@@ -10,6 +10,9 @@ import SlaResponseForm from './containers/SlaResponseForm';
 import SlaOnsiteForm from './containers/SlaOnsiteForm';
 import SlaWorkaroundForm from './containers/SlaWorkaroundForm';
 import SlaResolutionForm from './containers/SlaResolutionForm';
+import SlaTable from './containers/SlaTable';
+import TeamSlaTable from './containers/TeamSlaTable';
+import TeamSlaCreateTeam from './containers/TeamSlaCreateTeam';
 
 export default (
   <Route>
@@ -22,6 +25,9 @@ export default (
       <Route path="slaonsiteform" component={SlaOnsiteForm} />
       <Route path="slaworkaroundform" component={SlaWorkaroundForm} />
       <Route path="slaresolutionform" component={SlaResolutionForm} />
+      <Route path="slatable" component={SlaTable} />
+      <Route path="teamslatable" component={TeamSlaTable} />
+      <Route path="teamslacreateteam" component={TeamSlaCreateTeam} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>
