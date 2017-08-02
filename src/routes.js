@@ -13,6 +13,8 @@ import SlaResolutionForm from './containers/SlaResolutionForm';
 import SlaTable from './containers/SlaTable';
 import TeamSlaTable from './containers/TeamSlaTable';
 import TeamSlaCreateTeam from './containers/TeamSlaCreateTeam';
+import ServerSlideData from './containers/ServerSlideData';
+import SlaNumberTeamSupport from './containers/SlaNumberTeamSupport';
 
 export default (
   <Route>
@@ -28,6 +30,8 @@ export default (
       <Route path="slatable" component={SlaTable} />
       <Route path="teamslatable" component={TeamSlaTable} />
       <Route path="teamslacreateteam" component={TeamSlaCreateTeam} />
+      <Route path="serverslidedata" component={ServerSlideData} />
+      <Route path="slanumberteamsupport" component={SlaNumberTeamSupport} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>

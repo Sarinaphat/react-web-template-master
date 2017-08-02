@@ -18,7 +18,9 @@ const data = {
     { text: 'slaresolutionform', icon: <Web/>, link:'/slaresolutionform'},
     { text: 'slatable', icon: <Web/>, link:'/slatable'},
     { text: 'teamslatable', icon: <Web/>, link:'/teamslatable'},
-    { text: 'teamslacreateteam', icon: <Web/>, link:'/teamslacreateteam'}
+    { text: 'teamslacreateteam', icon: <Web/>, link:'/teamslacreateteam'},
+    { text: 'serverslidedata', icon: <Web/>, link:'/serverslidedata'},
+    { text: 'SlaNumberTeamSupport', icon: <Web/>, link:'/slanumberteamsupport'}
 
   ],
   tablePage: {

@@ -20,9 +20,9 @@ export default class TeamSlaCreateTeam extends Component{
     return(
       <div>
           <TextField hintText="Name Level 1" floatingLabelText="Name Level 1" value={team_level_1}
-          onChange={(e)=>this.setState({team_level_1:e.target.value})} />
+          onChange={(e)=>this.setState({team_level_1:e.target.value})} /><br />
           <TextField hintText="Name Level 2" floatingLabelText="Name Level 2" value={team_level_2}
-          onChange={(e)=>this.setState({team_level_2:e.target.value})}/>
+          onChange={(e)=>this.setState({team_level_2:e.target.value})}/><br />
           <RaisedButton label="Sumit"  onClick={()=>this.submit()} />
           <div>
             {result}

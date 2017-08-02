@@ -2,8 +2,9 @@ import React, {Component} from 'react';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 import {columns} from './SlaTableColumns';
+import TextField from 'material-ui/TextField';
 
-export default class SlaTable extends Component{
+export default class ServerSlideData extends Component{
   constructor(props){
     super(props);
 
@@ -18,7 +19,7 @@ export default class SlaTable extends Component{
     return(
       <div>
         <div>React Table</div>
-
+        <TextField hintText="Name Level 1"  />
         <div className="table-wrap">
           <ReactTable
             className="-striped -highlight"
