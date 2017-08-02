@@ -15,6 +15,8 @@ import TeamSlaTable from './containers/TeamSlaTable';
 import TeamSlaCreateTeam from './containers/TeamSlaCreateTeam';
 import ServerSlideData from './containers/ServerSlideData';
 import SlaNumberTeamSupport from './containers/SlaNumberTeamSupport';
+import SlaFindContract from './containers/SlaFindContract';
+import SlaRenderProjectInfo from './containers/SlaRenderProjectInfo';
 
 export default (
   <Route>
@@ -32,6 +34,8 @@ export default (
       <Route path="teamslacreateteam" component={TeamSlaCreateTeam} />
       <Route path="serverslidedata" component={ServerSlideData} />
       <Route path="slanumberteamsupport" component={SlaNumberTeamSupport} />
+      <Route path="slafindcontract" component={SlaFindContract} />
+      <Route path="slarenderprojectinfo" component={SlaRenderProjectInfo} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>

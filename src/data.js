@@ -20,7 +20,9 @@ const data = {
     { text: 'teamslatable', icon: <Web/>, link:'/teamslatable'},
     { text: 'teamslacreateteam', icon: <Web/>, link:'/teamslacreateteam'},
     { text: 'serverslidedata', icon: <Web/>, link:'/serverslidedata'},
-    { text: 'SlaNumberTeamSupport', icon: <Web/>, link:'/slanumberteamsupport'}
+    { text: 'SlaNumberTeamSupport', icon: <Web/>, link:'/slanumberteamsupport'},
+    { text: 'SlaFindContract', icon: <Web/>, link:'/slafindcontract'},
+    { text: 'SlaRenderProjectInfo', icon: <Web/>, link:'/slarenderprojectinfo'}
 
   ],
   tablePage: {
