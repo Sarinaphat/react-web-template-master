@@ -22,7 +22,9 @@ const data = {
     { text: 'serverslidedata', icon: <Web/>, link:'/serverslidedata'},
     { text: 'SlaNumberTeamSupport', icon: <Web/>, link:'/slanumberteamsupport'},
     { text: 'SlaFindContract', icon: <Web/>, link:'/slafindcontract'},
-    { text: 'SlaRenderProjectInfo', icon: <Web/>, link:'/slarenderprojectinfo'}
+    { text: 'SlaRenderProjectInfo', icon: <Web/>, link:'/slarenderprojectinfo'},
+    { text: 'slaendusercompany', icon: <Web/>, link:'/slaendusercompany'},
+    { text: 'slateamdefaultdefault', icon: <Web/>, link:'/slateamdefaultdefault'}
 
   ],
   tablePage: {

@@ -17,6 +17,8 @@ import ServerSlideData from './containers/ServerSlideData';
 import SlaNumberTeamSupport from './containers/SlaNumberTeamSupport';
 import SlaFindContract from './containers/SlaFindContract';
 import SlaRenderProjectInfo from './containers/SlaRenderProjectInfo';
+import SlaEnduserCompany from './containers/SlaEnduserCompany';
+import SlaTeamDefaultDefault from './containers/SlaTeamDefaultDefault';
 
 export default (
   <Route>
@@ -36,6 +38,8 @@ export default (
       <Route path="slanumberteamsupport" component={SlaNumberTeamSupport} />
       <Route path="slafindcontract" component={SlaFindContract} />
       <Route path="slarenderprojectinfo" component={SlaRenderProjectInfo} />
+      <Route path="slaendusercompany" component={SlaEnduserCompany} />
+      <Route path="slateamdefaultdefault" component={SlaTeamDefaultDefault} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>
