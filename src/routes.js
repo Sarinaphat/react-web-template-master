@@ -19,6 +19,10 @@ import SlaFindContract from './containers/SlaFindContract';
 import SlaRenderProjectInfo from './containers/SlaRenderProjectInfo';
 import SlaEnduserCompany from './containers/SlaEnduserCompany';
 import SlaTeamDefaultDefault from './containers/SlaTeamDefaultDefault';
+import BarChartV from './containers/charts/BarChartV';
+import calendar from './containers/calendar';
+import CreateTaskForm from './containers/CreateTaskForm';
+import RoleCreateForm from './containers/Role/RoleCreateForm';
 
 export default (
   <Route>
@@ -40,6 +44,10 @@ export default (
       <Route path="slarenderprojectinfo" component={SlaRenderProjectInfo} />
       <Route path="slaendusercompany" component={SlaEnduserCompany} />
       <Route path="slateamdefaultdefault" component={SlaTeamDefaultDefault} />
+      <Route path="barchartv" component={BarChartV} />
+      <Route path="calendar" component={calendar} />
+      <Route path="createtaskform" component={CreateTaskForm} />
+      <Route path="rolecreateform" component={RoleCreateForm} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>

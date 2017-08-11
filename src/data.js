@@ -24,7 +24,12 @@ const data = {
     { text: 'SlaFindContract', icon: <Web/>, link:'/slafindcontract'},
     { text: 'SlaRenderProjectInfo', icon: <Web/>, link:'/slarenderprojectinfo'},
     { text: 'slaendusercompany', icon: <Web/>, link:'/slaendusercompany'},
-    { text: 'slateamdefaultdefault', icon: <Web/>, link:'/slateamdefaultdefault'}
+    { text: 'slateamdefaultdefault', icon: <Web/>, link:'/slateamdefaultdefault'},
+    { text: 'barchartv', icon: <Web/>, link:'/barchartv'},
+    { text: 'calendar', icon: <Web/>, link:'/calendar'},
+    { text: 'createtaskform', icon: <Web/>, link:'/createtaskform'},
+    { text: 'rolecreateform', icon: <Web/>, link:'/rolecreateform'}
+
 
   ],
   tablePage: {
