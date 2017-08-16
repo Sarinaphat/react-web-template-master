@@ -23,6 +23,7 @@ import BarChartV from './containers/charts/BarChartV';
 import calendar from './containers/calendar';
 import CreateTaskForm from './containers/CreateTaskForm';
 import RoleCreateForm from './containers/Role/RoleCreateForm';
+import RoleMain from './containers/AdminWebComponent/RoleMain';
 
 export default (
   <Route>
@@ -48,6 +49,7 @@ export default (
       <Route path="calendar" component={calendar} />
       <Route path="createtaskform" component={CreateTaskForm} />
       <Route path="rolecreateform" component={RoleCreateForm} />
+      <Route path="rolemain" component={RoleMain} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>
