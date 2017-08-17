@@ -29,6 +29,7 @@ import TypeItemProductMain from './containers/AdminWebComponent/TypeItemProductM
 import TicketSiteAddress from './containers/AdminWebComponent/Ticket/TicketSiteAddress';
 import TicketOwner from './containers/AdminWebComponent/Ticket/TicketOwner';
 import TimeSheetMain from './containers/AdminWebComponent/TimeSheetMain';
+import ReactDatasheet from './containers/AdminWebComponent/ReactDatasheet';
 
 export default (
   <Route>
@@ -60,6 +61,7 @@ export default (
       <Route path="ticketsiteaddress" component={TicketSiteAddress} />
       <Route path="ticketowner" component={TicketOwner} />
       <Route path="timesheetmain" component={TimeSheetMain} />
+      <Route path="reactdatasheet" component={ReactDatasheet} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>
