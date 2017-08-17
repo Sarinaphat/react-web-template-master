@@ -24,6 +24,8 @@ import calendar from './containers/calendar';
 import CreateTaskForm from './containers/CreateTaskForm';
 import RoleCreateForm from './containers/Role/RoleCreateForm';
 import RoleMain from './containers/AdminWebComponent/RoleMain';
+import UserMain from './containers/AdminWebComponent/UserMain';
+import TypeItemProductMain from './containers/AdminWebComponent/TypeItemProductMain';
 
 export default (
   <Route>
@@ -50,6 +52,8 @@ export default (
       <Route path="createtaskform" component={CreateTaskForm} />
       <Route path="rolecreateform" component={RoleCreateForm} />
       <Route path="rolemain" component={RoleMain} />
+      <Route path="usermain" component={UserMain} />
+      <Route path="typeitemproductmain" component={TypeItemProductMain} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>

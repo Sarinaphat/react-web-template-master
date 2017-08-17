@@ -29,7 +29,9 @@ const data = {
     { text: 'calendar', icon: <Web/>, link:'/calendar'},
     { text: 'createtaskform', icon: <Web/>, link:'/createtaskform'},
     { text: 'rolecreateform', icon: <Web/>, link:'/rolecreateform'},
-    { text: 'rolemain', icon: <Web/>, link:'/rolemain'}
+    { text: 'rolemain', icon: <Web/>, link:'/rolemain'},
+    { text: 'usermain', icon: <Web/>, link:'/usermain'},
+    { text: 'typeitemproductmain', icon: <Web/>, link:'/typeitemproductmain'}
 
 
   ],
