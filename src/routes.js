@@ -26,6 +26,9 @@ import RoleCreateForm from './containers/Role/RoleCreateForm';
 import RoleMain from './containers/AdminWebComponent/RoleMain';
 import UserMain from './containers/AdminWebComponent/UserMain';
 import TypeItemProductMain from './containers/AdminWebComponent/TypeItemProductMain';
+import TicketSiteAddress from './containers/AdminWebComponent/Ticket/TicketSiteAddress';
+import TicketOwner from './containers/AdminWebComponent/Ticket/TicketOwner';
+import TimeSheetMain from './containers/AdminWebComponent/TimeSheetMain';
 
 export default (
   <Route>
@@ -54,6 +57,9 @@ export default (
       <Route path="rolemain" component={RoleMain} />
       <Route path="usermain" component={UserMain} />
       <Route path="typeitemproductmain" component={TypeItemProductMain} />
+      <Route path="ticketsiteaddress" component={TicketSiteAddress} />
+      <Route path="ticketowner" component={TicketOwner} />
+      <Route path="timesheetmain" component={TimeSheetMain} />
       <Route path="*" component={NotFoundPage}/>
 
     </Route>
