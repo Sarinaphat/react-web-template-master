@@ -35,7 +35,8 @@ const data = {
     { text: 'ticketsiteaddress', icon: <Web/>, link:'/ticketsiteaddress'},
     { text: 'ticketowner', icon: <Web/>, link:'/ticketowner'},
     { text: 'timesheetmain', icon: <Web/>, link:'/timesheetmain'},
-    { text: 'reactdatasheet', icon: <Web/>, link:'/reactdatasheet'}
+    { text: 'reactdatasheet', icon: <Web/>, link:'/reactdatasheet'},
+    { text: 'contractmain', icon: <Web/>, link:'/contractmain'}
 
 
 

@@ -2,8 +2,9 @@ import React,{Component} from 'react';
 import ReactDataSheet from 'react-datasheet';
 // Be sure to include styles at some point, probably during your bootstrapping
 import 'react-datasheet/lib/react-datasheet.css';
-import './index.css';
 import Select from 'react-select';
+import 'react-select/dist/react-select.css'
+import './index.css';
 import _ from 'lodash';
 
 export default class ReactDatabase extends Component{
